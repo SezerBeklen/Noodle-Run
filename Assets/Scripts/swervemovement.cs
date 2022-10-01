@@ -19,6 +19,6 @@ public class swervemovement : MonoBehaviour
 
         float swerveAmount = Time.deltaTime * swerveSpeed * _swerveInputSystem.MoveFactorX;
         swerveAmount = Mathf.Clamp(swerveAmount, -maxSwerveAmount, maxSwerveAmount);
-        transform.Translate(0, -swerveAmount, 0);
+        transform.Translate(swerveAmount, 0, 0);
     }
 }

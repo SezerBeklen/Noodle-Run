@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class knife : MonoBehaviour
 {
-    public bool temas;
+    
     public float scalesize;
-    public float objectHeight;
-   
 
     public void Cut(Transform knife)
     {
@@ -76,7 +74,7 @@ public class knife : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             gameObject.transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y + scalesize, transform.localScale.z);
-            objectHeight += 0.2f;
+             
            
         }
 
