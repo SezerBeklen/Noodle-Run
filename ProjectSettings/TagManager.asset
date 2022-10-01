@@ -4,7 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - CanSlice
+  - saw
+  - scalesize
+  - cylinder
+  - ground
+  - silindir
+  - jumpend
   layers:
   - Default
   - TransparentFX
